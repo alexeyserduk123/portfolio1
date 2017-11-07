@@ -1,0 +1,226 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.mnu-line {
+		padding: 20px 0;
+	}
+
+	.mnu-line ul{
+		display: none;
+		padding: 0;
+	} 
+
+	.mnu-line ul li {
+		display: block;
+		margin-top: 6px;
+		font-size: 20px;
+	}
+	.toggle-mnu {
+		left: 48.6%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.item-review img {
+		height: auto !important;
+	}
+	.contact {
+		display: block;
+		width: 135px;
+		margin: 30px auto;
+		font-size: 18px;
+	}
+	.adress {
+		font-size: 17px;
+	}
+	.spec-offer .first-f {
+		margin: 230px 30px 230px 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.dress-item {
+		width: 32.33%;
+	}
+	.dress-popup img {
+		width: 85%;
+	}
+	.tac, .tar {
+		text-align: left;
+	}
+	.toggle-mnu {
+		left: 48.2%;
+	}
+	.top-headers {
+		margin-left: 0;
+		margin-top: 100px;
+	}
+	.spec-offer{
+		-ms-background-position-x: -547px;
+		background-position-x: -547px;
+	}
+	.spec-offer .first-f {
+		width: 100%;
+		height: 255px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	.spec-offer .first-f form {
+		padding: 0;
+	}
+	.spec-offer .spf {
+		margin-top: 30px;
+	}
+	#collection {
+		margin-top: 30px;
+	}
+	.reviews .contact {
+		padding: 15px 20px;;
+	}
+	.order-bl{
+		padding-bottom: 30px;
+	}
+	.request {
+		-ms-background-position-x: -360px;
+		background-position-x: -360px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.dress-item {
+		width: 100%;
+	}
+	.feedback {
+		width: 300px;
+		padding: 20px;
+	}
+	.dress-popup {
+		width: 100%;
+	}
+	.dress-popup img {
+		width: 90%;
+		 padding-right: 19px;
+	}
+	.feedback .special-input {
+		width: 100%;
+		display: block;
+	}
+	.spec-offer {
+		text-align: center;
+	}
+	.spec-offer .first-f {
+		width: 320px;
+		padding: 0;
+		height: 300px;
+
+	}
+	.spec-offer .first-f,.top-headers {
+		margin: 50px 0;
+	}
+	.top-headers {
+		padding-top: 20px;
+		height: 268px;
+	}
+	.top-headers h2 {
+		font-size: 17px;
+	}
+	.toggle-mnu {
+		left: 46.2%;
+	}
+	
+	.spec-offer {
+		background-position: -630px;
+	}
+	.spec-offer .first-f input {
+		width: 250px;
+	}
+	#collection {
+		font-size: 18px;
+		margin-top: 0;
+	}
+	.dress-popup .text > span {
+		margin-left: 15px;
+	}
+	.reviews .contact {
+		padding: 15px 25px;
+	}
+	.order-bl {
+		padding-bottom: 10px;
+	}
+	.dress-popup .contact {
+		margin: 0 auto;
+	}
+	.back-del {
+		margin-top: 20px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.request{
+		-ms-background-position-x: -501px;
+		background-position-x: -501px;
+	}
+	.reviews p {
+		margin-bottom: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
